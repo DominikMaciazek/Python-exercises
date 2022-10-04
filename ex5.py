@@ -1,3 +1,5 @@
+# Write a Python program to move all zero digits to end of a given list of numbers.
+
 numbers = [ 1,2,0,0,5,0,1,4,6,7,0,0,4,0,6,0]
 
 def zero_place(numbers):
