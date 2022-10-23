@@ -1,7 +1,7 @@
 import random
-x = random.randint (1,10)
-
 import time
+
+x = random.randint (1,10)
 print ('Uwaga za chwile odliczanie')
 time.sleep (1)
 print ('4')
