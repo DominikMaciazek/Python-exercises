@@ -5,3 +5,4 @@ Exercises from:
 - The Python Workbook - Ben Stephenson
 - Impractical Python Projects - Lee Vaughan
 - Eric Matthews - Python Crash Course
+- Angela Yu - 100 Days of Code
