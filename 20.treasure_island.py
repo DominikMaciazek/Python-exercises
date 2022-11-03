@@ -23,15 +23,15 @@ ____/______/______/______/______/_____"=.o|o_.--""___/______/______/______/____
 print( "Welcome to Trasure Island.\nYour mission is to find the trasuer. ")
 
 def treasure_island():
-    road = input("You're at a cross road. Where do you want to go? Type 'left' or 'right': ")
+    road = input("You're at a cross road. Where do you want to go? Type 'left' or 'right': ").lower()
     if road == "right":
         print("Game Over")
     else:
-        swim_or_wait= input("You come to a lake. Ther is an island in the middle of the lake. Type ' wait to wait for a boat. Type 'swim' to swim across. ")
+        swim_or_wait= input("You come to a lake. Ther is an island in the middle of the lake. Type ' wait to wait for a boat. Type 'swim' to swim across. ").lower()
         if swim_or_wait == "swim":
             print("Game Over")
         else:
-            which_door= input("You arrive at the island unharmed. There is a house with 3 doors. One red, one yellow and obe blue. Which colour do you choose? ")
+            which_door= input("You arrive at the island unharmed. There is a house with 3 doors. One red, one yellow and obe blue. Which colour do you choose? ").lower()
             if which_door == "yellow":
                 print ("You Win!")
             else:
